@@ -1,0 +1,20 @@
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+	border: 1px solid #5b5a5a;
+	border-collapse: collapse;
+}
+
+th {
+	border: 2px solid #0f0f0f;
+    font: 500 1.5vmax "Poppins";
+}
+
+td {
+    text-align: center;
+    font: 300 1.2vmax "Poppins";
+}

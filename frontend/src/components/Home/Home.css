@@ -1,0 +1,124 @@
+.homeHeading{
+    text-align: center;
+    font:600 2vmax "Kalam" ;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+    width: 20vmax;
+    margin: 5% auto;
+}
+
+.container{
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.productCard{
+    width: 20vmax;
+    height: 28vmax;
+    padding: 0.5vmax;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin-left: 2vmax;
+}
+
+.productCard > img {
+    width: 18vmax;
+    height: 25vmax;
+    margin: auto;
+}
+
+.productCard > div {
+    margin: 0.5vmax;
+    display: flex;
+    flex-direction: flex-start;
+}
+
+.productCard > div > span {
+    margin-top: 4%;
+    overflow: hidden;
+}
+
+.productCard > p {
+    font-family: "EB Garamond";
+    font-size: 1.2vmax;
+    margin: 1vamx 0.5vmax;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.productCard > span {
+    margin: 0.5vmax 0.5vmax;
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vmax;
+    overflow: hidden;
+}
+
+.productCard:hover{
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+}
+
+.auth-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth-links > a,
+.link-holder > a{
+    background-color: #086a58;
+    text-decoration: none;
+    border-radius: 7px;
+    color: white;
+    width: fit-content;
+    padding: 1vmax;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    font: 400 1.5vmax "Tiro Tamil";
+}
+
+.auth-links > a:hover
+,.link-holder > a:hover{
+    background-color: #0cbe9d;
+    transform: scale(1.05);
+}
+
+.link-holder {
+    margin-top: 1vmax;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .productCard {
+        width: 18vmax;
+        height: 32vmax;
+    }
+
+    .productCard > p{
+        font-size: 1.7vmax;
+    }
+
+    .productCard > div {
+        overflow: visible;
+        display: block;
+    }
+
+    .productCard > span {
+        font-size: 1.5vmax;
+    }
+
+    .productCard > div > span {
+        margin: 0vmax 0.1vmax;
+        font: 300 1vmax "Poppins";
+    }
+}
