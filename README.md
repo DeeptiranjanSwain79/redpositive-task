@@ -5,7 +5,7 @@
 
 
 ## For BACKEND:
-### `cd frontend`
+### `cd backend`
 ### `npm start`
 
 In case of any problem please come to localhost:3000 and refresh it.
